@@ -1,0 +1,66 @@
+#profile-widget {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    z-index: 9999;
+  }
+  
+  .widget-header strong {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .match-score label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: block;
+  }
+  
+  .progress-container {
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #0073b1;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  
+  .status-tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-target {
+    background-color: green;
+  }
+  
+  .status-not-target {
+    background-color: red;
+  }
+  
+  #toggle-btn {
+    margin-top: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
