@@ -1,0 +1,20 @@
+[
+  {
+    "id": 101,
+    "name": "Acme Corp",
+    "matchScore": 89,
+    "status": "Target"
+  },
+  {
+    "id": 102,
+    "name": "Globex Inc",
+    "matchScore": 75,
+    "status": "Target"
+  },
+  {
+    "id": 103,
+    "name": "Initech",
+    "matchScore": 92,
+    "status": "Not Target"
+  }
+]
